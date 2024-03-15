@@ -1,0 +1,339 @@
+repo_name: ctavolazzi/chvote-1-0
+report_id: 6bd5d9bec7e3ff7b795674aafb3f5b57
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T01:59:10+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 27
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0
+  detection_source: Repo Metadata
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/commons-crypto/pom.xml
+  detection_source: commons-base/commons-crypto/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: Log4j
+  description: A Java-based logging utility
+  website_url: https://logging.apache.org/log4j/2.x/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: Spock Framework
+  description: The Enterprise-ready testing and specification framework
+  website_url: http://spockframework.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/5548/UB74SoK2_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-14 09:12:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0
+  detection_source: Repo Metadata
+- name: cglib:cglib-nodep
+  description: Cglib is a powerful
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: com.google.code.findbugs:annotations
+  description: Annotation the FindBugs tool supports
+  version: 1.3.9
+  license: LGPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-19 08:24:24.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/commons-crypto/pom.xml
+  detection_source: commons-base/commons-crypto/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/commons-crypto/pom.xml
+  detection_source: commons-base/commons-crypto/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.bouncycastle:bcpkix-jdk15on
+  description: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP,
+    and certificate generation
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.codehaus.groovy:groovy-all
+  description: 'Groovy: A powerful, dynamic language for the JVM'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.hamcrest:hamcrest-all
+  description: A self-contained hamcrest jar containing all of the sub-modules in
+    a single artifact
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/commons-base/pom.xml
+  detection_source: commons-base/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.objenesis:objenesis
+  description: A library for instantiating Java objects
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.spockframework:spock-core
+  description: Spock is a testing and specification framework for Java and Groovy
+    applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.testfx:testfx-core
+  description: TestFX Core
+  license: EUPL-1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
+- name: org.testfx:testfx-junit
+  description: TestFX JUnit
+  license: EUPL-1.2
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ctavolazzi/chvote-1-0/blob/master/admin-offline/pom.xml
+  detection_source: admin-offline/pom.xml
+  last_updated_by: chvote-etat-de-geneve
+  last_updated_on: 2016-12-13 08:12:42.000000000 Z
